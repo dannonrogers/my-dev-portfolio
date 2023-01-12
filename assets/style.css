@@ -1,5 +1,6 @@
 :root {
     /* css variables */
+    --bg-color: 
 }
 
 /* element selectors */
@@ -47,6 +48,58 @@ h6 {
 
 p {
     margin-bottom: 1rem;
+    font-size: 1.5 rem;
 }
 /* class & id selectors */
 
+.row{
+    display: flex;
+}
+
+.sidebar{
+    width: 15%;
+    border-right: 5px solid rgb(134, 116, 116);
+    text-align: right;
+}
+
+.section-content{
+    width: 80%;
+    padding-left: 2%;
+    margin-left: 2%;
+}
+
+#portfolio-projects{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+}
+
+.app-tile{
+    width: 45%;
+    max-width: 45%;
+    padding:1%;
+    margin: 1%;
+    position: relative;
+}
+
+.app-tile img{
+    width:97%;
+    border: 5px solid aqua;
+}
+
+.description{
+    position: absolute;
+    background-color: aqua;
+    bottom:50px;
+    left:12px;
+    padding: 10px;
+}
+
+#feature-project {
+    width: 95%;
+    max-width:95%
+}
+
+header{
+    display: flex;
+}
