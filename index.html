@@ -12,7 +12,7 @@
 <!-- TODO: include name, photo/avatar, links to sections About Me, Work, Contact Me -->
 <body>
     <header>
-        <Nav>
+        <nav>
             <h1>Dannon Rogers</h1>
             <ul>
                 <li><a href="#about-me">About Me</a></li>
@@ -20,49 +20,77 @@
                 <li><a href="#contact-me">Contact Me</a></li>
                 <li><a href="#">Resume</a></li>
             </ul>
-        </Nav>
+        </nav>
+    </header>
         <section class="photo-section">
             <img src="#" alt="developers recent photo">
         </section>
-    </header>
 
     <main>
-        <section id="about-me">
-            <h2 class="section-header">About Me</h2>
-            <p>Very captivating things about me. More text about me.
+        <section id="about-me" class="row">
+            <aside class="sidebar">
+
+                <h2 class="section-header">About Me</h2>
+            </aside>
+            <article class="section-content">
+                <p>Very captivating things about me. More text about me.
+            </article>
             </p>
         </section>
-        <section id="work">
-            <h2 class="section-header">Work</h2>
+        <section id="work" class="row">
+            <aside class="sidebar">
+                <h2 class="section-header">Work</h2>
+            </aside>
+            <article class="section-content" id="portfolio-projects">
+                <figure id="feature-project" class="app-tile">
+                    <img src="./assets/Img/sample-img.jpg" class="screenshot"/>
+                    <section class="description">
+                        <h5 class="app-header">Placeholder App1</h5>
+                        <p>Utilized technology</p>
+                    </section>
+                </figure>
+                <figure  class="app-tile">
+                    <img src="./assets/Img/sample-img.jpg" class="screenshot"/>
+                    <section class="description">
+                        <h5 class="app-header">Placeholder App2</h5>
+                        <p>Utilized technology</p>
+                    </section>
+                </figure>
+                <figure class="app-tile">
+                    <img src="./assets/Img/sample-img.jpg" class="screenshot"/>
+                    <section class="description">
+                        <h5 class="app-header">Placeholder App3</h5>
+                        <p>Utilized technology</p>
+                    </section>
+                </figure>
+                <figure class="app-tile">
+                    <img src="./assets/Img/sample-img.jpg" class="screenshot"/>
+                    <section class="description">
+                        <h5 class="app-header">Placeholder App4</h5>
+                        <p>Utilized technology</p>
+                    </section>
+                </figure>
+                <figure class="app-tile">
+                    <img src="./assets/Img/sample-img.jpg" class="screenshot"/>
+                    <section class="description">
+                        <h5 class="app-header">Placeholder App5</h5>
+                        <p>Utilized technology</p>
+                    </section>
+                </figure>
+            </article>
             <!-- TODO: set background images-->
-            <figure class="app-tile">
-                <h5 class="app-header">Placeholder App1</h5>
-                <p>Utilized technology</p>
-            </figure>
-            <figure class="app-tile">
-                <h5 class="app-header">Placeholder App2</h5>
-                <p>Utilized technology</p>
-            </figure>
-            <figure class="app-tile">
-                <h5 class="app-header">Placeholder App3</h5>
-                <p>Utilized technology</p>
-            </figure>
-            <figure class="app-tile">
-                <h5 class="app-header">Placeholder App4</h5>
-                <p>Utilized technology</p>
-            </figure>
-            <figure class="app-tile">
-                <h5 class="app-header">Placeholder App5</h5>
-                <p>Utilized technology</p>
-            </figure>
         </section>
-        <section id="contact-me">
-            <h2 class="section-header">Contact Me</h2>
-            <ul>
-                <li><a href="tel:+1706.664.9150">706.664.9150</a></li>
-                <li> <a href="mailto:dannon@gmail.com">dannon@gmail.com</a></li>
-                <li><a href="#">GitHub</a></li>
-            </ul>
+        <section id="contact-me" class="row">
+            <aside class="sidebar">
+                <h2 class="section-header">Contact Me</h2>
+            </aside>
+            <article class="section-content">
+                <ul>
+                    <li><a href="tel:+1706.664.9150">706.664.9150</a></li>
+                    <li> <a href="mailto:dannon@gmail.com">dannon@gmail.com</a></li>
+                    <li><a href="#">GitHub</a></li>
+                </ul>
+            </article>
         </section>
     </main>
     
