@@ -24,7 +24,7 @@ header{
     background-color: var(--main-text-color);
     color: var(--main-text-color);
 }
-
+/* Finish moving nav links to right side. */
 nav{
     display:flex;
     width: 100%;
