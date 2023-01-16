@@ -1,6 +1,7 @@
 :root {
     /* css variables */
-    --bg-color: 
+    --main-text-color: rgb(54,55,60);
+    --accent-color: rgb(221, 210, 206);
 }
 
 /* element selectors */
@@ -11,11 +12,35 @@ html {
 
 body {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
+    
     font-size: 1.75rem;
     line-height: 1.5;
     /* color: TODO; */
     /* background-color: TODO; */
+}
+
+header{
+    display: flex;
+    background-color: var(--main-text-color);
+    color: var(--main-text-color);
+}
+
+nav{
+    display:flex;
+    width: 100%;
+    text-align: right;
+}
+
+ul{
+    position: relative;
+}
+
+li {
+    display: inline
+}
+
+main {
+    color: var(--main-text-color);
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -24,6 +49,10 @@ h1,h2,h3,h4,h5,h6 {
 
 h1 {
     font-size: 4rem;
+    background-color: var(--accent-color);
+    margin-top:5px;
+    padding-right: 5px;
+    padding-left:60px;
 }
 
 h2 {
@@ -50,15 +79,19 @@ p {
     margin-bottom: 1rem;
     font-size: 1.5 rem;
 }
+
 /* class & id selectors */
 
 .row{
     display: flex;
+    margin: 30px 0; 
 }
 
 .sidebar{
-    width: 15%;
-    border-right: 5px solid rgb(134, 116, 116);
+    width: 12%;
+    border-right: 5px solid rgb(54,55,60);
+    padding-right: 1%;
+    margin-left: 5%;
     text-align: right;
 }
 
@@ -68,10 +101,12 @@ p {
     margin-left: 2%;
 }
 
-#portfolio-projects{
-    display:flex;
-    flex-wrap:wrap;
-    justify-content: space-evenly;
+.photo-div{
+    display: flex;
+    background-image: url(./Img/bg-print-img.avif);
+    background-repeat:no-repeat;
+    background-size: cover;
+    height: 15vmax;
 }
 
 .app-tile{
@@ -84,22 +119,33 @@ p {
 
 .app-tile img{
     width:97%;
-    border: 5px solid aqua;
+    border: 5px solid rgb(221, 210, 206);
 }
 
 .description{
     position: absolute;
-    background-color: aqua;
+    background-color: rgb(221, 210, 206);
     bottom:50px;
     left:12px;
     padding: 10px;
 }
 
-#feature-project {
-    width: 95%;
-    max-width:95%
+.header-link{
+    color: var(--accent-color);
+    padding: 30px;
 }
 
-header{
-    display: flex;
+#feature-project {
+    width: 95%;
+    max-width:95%;
+}
+
+#portfolio-projects{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+}
+
+#profile-img{
+    padding: 10px;
 }
