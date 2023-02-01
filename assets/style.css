@@ -16,7 +16,7 @@ body {
     font-size: 1.75rem;
     line-height: 1.5;
     /* color: TODO; */
-    /* background-color: TODO; */
+    background-color:rgba(244, 240, 238, 0.37);
 }
 
 header{
@@ -24,19 +24,19 @@ header{
     background-color: var(--main-text-color);
     color: var(--main-text-color);
 }
-/* Finish moving nav links to right side. */
 nav{
     display:flex;
+    justify-content: space-between;
     width: 100%;
-    text-align: right;
+    
 }
 
-ul{
-    position: relative;
+nav ul{
+    padding-top: 20px;
 }
-
 li {
-    display: inline
+    display: inline;
+    font-size: 2.25rem;
 }
 
 main {
@@ -80,6 +80,16 @@ p {
     font-size: 1.5 rem;
 }
 
+article ul{
+    display: flex;
+    justify-content: space-evenly;
+    color: var(--main-text-color);
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+}
 /* class & id selectors */
 
 .row{
@@ -89,7 +99,7 @@ p {
 
 .sidebar{
     width: 12%;
-    border-right: 5px solid rgb(54,55,60);
+    border-right: 5px solid rgb(54, 55, 60);
     padding-right: 1%;
     margin-left: 5%;
     text-align: right;
@@ -126,8 +136,9 @@ p {
     position: absolute;
     background-color: rgb(221, 210, 206);
     bottom:50px;
-    left:12px;
+    left:16px;
     padding: 10px;
+    
 }
 
 .header-link{
@@ -147,5 +158,13 @@ p {
 }
 
 #profile-img{
-    padding: 10px;
+    margin-left: 80px;
+    padding: 5px;
+}
+
+#contact-links{
+    color: var(--main-text-color);
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 3px solid rgb(54, 55, 60);
 }

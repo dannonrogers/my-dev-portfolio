@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="./assets/style.css">
 </head>
 
-<!-- TODO: include name, photo/avatar, links to sections About Me, Work, Contact Me -->
 <body>
     <header>
         <nav>
@@ -20,7 +19,7 @@
                 <li><a class="header-link" href="#contact-me">Contact Me</a></li>
                 <li><a class="header-link" href="#">Resume</a></li>
             </ul>
-        </nav>class="header-link" 
+        </nav> 
     </header>
 
     <div class="photo-div">
@@ -28,15 +27,17 @@
     </div>
 
     <main>
-        <section id="about-me" class="row">
+        <section id="about-me" class="row"> 
             <aside class="sidebar">
 
                 <h2 class="section-header">About Me</h2>
             </aside>
             <article class="section-content">
-                <p>Very captivating things about me. More text about me.
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis sem quis ipsum sagittis pharetra vel vitae dui. Phasellus sit amet purus id dolor ornare consectetur id at orci. Suspendisse dictum nisi non tellus rhoncus, vitae fermentum leo tincidunt. Vivamus sit amet lorem euismod, egestas urna ut, sollicitudin felis. Sed elit elit, iaculis sed finibus venenatis, pretium et metus. Aliquam aliquet leo vitae elit rhoncus, ut vulputate lectus varius. Proin tempus molestie risus quis tincidunt. Donec vel elementum ligula, non gravida mi. Vivamus placerat, turpis sed lobortis consectetur, elit turpis pellentesque libero, ac dignissim quam leo id libero. <br>
+                </br>
+                Ut eu nisl in ligula elementum maximus. Sed rutrum lectus lectus, nec dignissim libero efficitur ut. In hac habitasse platea dictumst. Vivamus et ipsum sed metus consequat finibus in et mi. Donec a nisl sed metus interdum laoreet ac at lacus. Vivamus in magna eget massa cursus tincidunt. Sed facilisis, magna scelerisque iaculis mollis, quam ex lobortis orci, vel convallis justo ligula consequat eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget molestie eros. Aenean sit amet elementum sem.
+                </p>
             </article>
-            </p>
         </section>
         <section id="work" class="row">
             <aside class="sidebar">
@@ -44,42 +45,51 @@
             </aside>
             <article class="section-content" id="portfolio-projects">
                 <figure id="feature-project" class="app-tile">
-                    <img src="./assets/Img/sample-project-img.jpg" class="screenshot"/>
+                    <a href="https://diegocamilli.github.io/The-Manhattan-Project/">
+                        <img src="./assets/Img/marvel-horoscope.png"/>
+                    </a>
                     <section class="description">
-                        <h5 class="app-header">Placeholder App1</h5>
-                        <p>Utilized technology</p>
+                        <h5 class="app-header">Marvel Horoscope Generator</h5>
+                        <p>HTML, CSS, JS, CryptoJS, APIs</p>
                     </section>
                 </figure>
                 <figure  class="app-tile">
-                    <img src="./assets/Img/sample-project-img.jpg" class="screenshot"/>
+                    <a href="#">
+                        <img src="./assets/Img/sample-project-img.jpg"/>
+                    </a>
                     <section class="description">
                         <h5 class="app-header">Placeholder App2</h5>
                         <p>Utilized technology</p>
                     </section>
                 </figure>
                 <figure class="app-tile">
-                    <img src="./assets/Img/sample-project-img.jpg" class="screenshot"/>
+                    <a href="#">
+                        <img src="./assets/Img/sample-project-img.jpg"/>
+                    </a>
                     <section class="description">
                         <h5 class="app-header">Placeholder App3</h5>
                         <p>Utilized technology</p>
                     </section>
                 </figure>
                 <figure class="app-tile">
-                    <img src="./assets/Img/sample-project-img.jpg" class="screenshot"/>
+                    <a href="#">
+                        <img src="./assets/Img/sample-project-img.jpg"/>
+                    </a>
                     <section class="description">
                         <h5 class="app-header">Placeholder App4</h5>
                         <p>Utilized technology</p>
                     </section>
                 </figure>
                 <figure class="app-tile">
-                    <img src="./assets/Img/sample-project-img.jpg" class="screenshot"/>
+                    <a href="#">
+                        <img src="./assets/Img/sample-project-img.jpg"/>
+                    </a>
                     <section class="description">
                         <h5 class="app-header">Placeholder App5</h5>
                         <p>Utilized technology</p>
                     </section>
                 </figure>
             </article>
-            <!-- TODO: set background images-->
         </section>
         <section id="contact-me" class="row">
             <aside class="sidebar">
@@ -87,12 +97,15 @@
             </aside>
             <article class="section-content">
                 <ul>
-                    <li><a href="tel:+1706.664.9150">706.664.9150</a></li>
-                    <li> <a href="mailto:dannon@gmail.com">dannon@gmail.com</a></li>
-                    <li><a href="#">GitHub</a></li>
+                    <li><a id="contact-links" href="tel:+1706.664.9150">706.664.9150</a></li>
+                    <li> <a id="contact-links" href="mailto:dannon@gmail.com">dannonrogers@gmail.com</a></li>
+                    <li><a id="contact-links" href="#">GitHub</a></li>
                 </ul>
             </article>
         </section>
+        <footer>
+            <p>©2023 DTC -- All rights reserved.</p>
+        </footer>
     </main>
     
 </body>
