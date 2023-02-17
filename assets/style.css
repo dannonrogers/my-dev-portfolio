@@ -50,9 +50,9 @@ h1,h2,h3,h4,h5,h6 {
 h1 {
     font-size: 4rem;
     background-color: var(--accent-color);
-    margin-top:5px;
-    padding-right: 5px;
-    padding-left:60px;
+    height: 100%;
+    padding-right: 15px;
+    padding-left: 5%;
 }
 
 h2 {
@@ -98,17 +98,20 @@ footer {
 }
 
 .sidebar{
-    width: 12%;
+    display: flex;
+    justify-content: right;
+    text-align: right;
+    width: 15%;
     border-right: 5px solid rgb(54, 55, 60);
     padding-right: 1%;
     margin-left: 5%;
-    text-align: right;
 }
 
 .section-content{
-    width: 80%;
+    width: 70%;
     padding-left: 2%;
     margin-left: 2%;
+    margin-right: 5%;
 }
 
 .photo-div{
@@ -116,7 +119,8 @@ footer {
     background-image: url(./Img/bg-print-img.avif);
     background-repeat:no-repeat;
     background-size: cover;
-    height: 15vmax;
+    height: 18vmax;
+    margin-top: 30px;
 }
 
 .app-tile{
@@ -128,22 +132,21 @@ footer {
 }
 
 .app-tile img{
-    width:97%;
+    width:85%;
     border: 5px solid rgb(221, 210, 206);
 }
 
 .description{
     position: absolute;
     background-color: rgb(221, 210, 206);
-    bottom:50px;
-    left:16px;
-    padding: 10px;
-    
+    bottom:13%;
+    padding: 7px;
 }
 
 .header-link{
     color: var(--accent-color);
     padding: 30px;
+    text-decoration: none;
 }
 
 #feature-project {
@@ -158,8 +161,7 @@ footer {
 }
 
 #profile-img{
-    margin-left: 80px;
-    padding: 5px;
+    margin-left: 5%;
 }
 
 #contact-links{
@@ -167,4 +169,8 @@ footer {
     font-weight: bold;
     text-decoration: none;
     border-bottom: 3px solid rgb(54, 55, 60);
+}
+/* Media Queries */
+@media screen {
+    
 }
