@@ -25,7 +25,7 @@ header{
     color: var(--main-text-color);
 }
 nav{
-    display:flex;
+    display: flex;
     justify-content: space-between;
     width: 100%;
     
@@ -171,6 +171,8 @@ footer {
     border-bottom: 3px solid rgb(54, 55, 60);
 }
 /* Media Queries */
-@media screen {
-    
+@media screen and (max-width: 576px) {
+    main, header {
+        flex-direction:;
+    }
 }
