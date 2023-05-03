@@ -15,7 +15,6 @@ body {
     
     font-size: 1.75rem;
     line-height: 1.5;
-    /* color: TODO; */
     background-color:rgba(244, 240, 238, 0.37);
 }
 
@@ -90,6 +89,10 @@ footer {
     text-align: center;
     padding: 3px;
 }
+
+a > img {
+
+}
 /* class & id selectors */
 
 .row{
@@ -129,10 +132,12 @@ footer {
     padding:1%;
     margin: 1%;
     position: relative;
+    background-size:cover;
 }
 
 .app-tile img{
-    width:85%;
+    width:100%;
+    height: 100%;
     border: 5px solid rgb(221, 210, 206);
 }
 
