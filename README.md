@@ -1,14 +1,10 @@
 # my-dev-portfolio
 
 ## Description
-This exercise provided a real world example of resolving a feature request/on-the-job ticket, requesting a refactoring of starter code to enhance site accessibility and functionality. This tested and confirmed my understanding of basic/advanced HTML, CSS, & my ability to successfully collaborate using Git.
+This project challenged me to create my first dev portfolio. This tested and confirmed my understanding of basic/advanced HTML & CSS.
 
 ## Usage
-Visit <a href=https://dannonrogers.github.io/module-1-challenge/>https://dannonrogers.github.io/module-1-challenge/</a> to view the webpage. 
-
-![alt text](#)
-
-## Credits
+Visit <a href=https://dannonrogers.github.io/my-dev-portfolio/>https://dannonrogers.github.io/my-dev-portfolio/</a> to view the webpage. 
 
 
 ## License
